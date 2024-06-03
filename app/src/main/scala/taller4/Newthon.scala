@@ -86,6 +86,6 @@ object Newton {
   // Boolean function to check if the approximation is good
   def buenaAprox(f: Expr, a: Atomo, d: Double): Boolean = Math.abs(evaluar(f,a,d))<0.001
 
-
+//
 
 }
