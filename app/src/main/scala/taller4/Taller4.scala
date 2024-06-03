@@ -14,11 +14,9 @@ object Taller4{
   def saludo() = "Taller 4"
 
   def main(args: Array[String]): Unit = {
-    println(saludo())
-    println(
-      withWarmer(new Warmer.Default) measure {
-        (1 to 100000000).toArray
-      }
-    )
+    println(greeting())
+
   }
+
+  def greeting(): String = "Hello, world!"
  }
